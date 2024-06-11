@@ -1,0 +1,13 @@
+# MacOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Node modules
+node_modules/
+
+# VitePress build output
+docs/.vitepress/dist/
+docs/.vitepress/cache/
