@@ -7,7 +7,7 @@ hero:
   text: "project"
   tagline: A community of anime and manga enthusiasts.
   image:
-    src: /hero-kv.webp
+    src: /assets/hero-kv.webp
     alt: Satoru Gojo Hero
   actions:
     - theme: brand
