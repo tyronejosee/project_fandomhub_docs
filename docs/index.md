@@ -7,8 +7,8 @@ hero:
   text: "project"
   tagline: A community of anime and manga enthusiasts.
   image:
-    src: /assets/hero-kv.webp
-    alt: Vite Burger King Website Hero Image
+    src: /hero-kv.webp
+    alt: Satoru Gojo Hero
   actions:
     - theme: brand
       text: Documentation
