@@ -14,7 +14,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "FandomHub",
-    logo: "/assets/logo.svg",
+    logo: "https://res.cloudinary.com/dwyvfa5dj/image/upload/v1718409196/project_fandomhub_docs/jl2a92rkuo0kbrt3szce.svg",
 
     nav: [
       { text: "Documentation", link: "/en/introduction/what_is_fandomhub" },

@@ -7,15 +7,15 @@ hero:
   text: "project"
   tagline: A community of anime and manga enthusiasts.
   image:
-    src: /assets/hero-kv.webp
+    src: https://res.cloudinary.com/dwyvfa5dj/image/upload/v1718409719/project_fandomhub_docs/sa57lkbrtybth1emfyju.webp
     alt: Satoru Gojo Hero
   actions:
     - theme: brand
       text: Documentation
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      link: /en/introduction/what_is_fandomhub
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
   - title: Anime and Manga Lists

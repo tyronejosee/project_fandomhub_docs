@@ -8,14 +8,11 @@ hero:
   tagline: API basada en MyAnimeList
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Documentación
+      link: /en/introduction/what_is_fandomhub
+    # - theme: brand
+    #   text: Markdown Examples
+    #   link: /markdown-examples
 
 features:
   - title: Feature A
@@ -24,5 +21,6 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 ---
 
