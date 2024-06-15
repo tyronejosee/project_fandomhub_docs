@@ -7,7 +7,7 @@ export default defineConfig({
     "An API for managing and accessing anime and manga-related information, inspired by MyAnimeList. Built with Django and Django Rest Framework, PostgreSQL, SQLite, Redis, and Docker.",
   lang: "en-US",
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/assets/logo.svg" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "https://res.cloudinary.com/dwyvfa5dj/image/upload/v1718409196/project_fandomhub_docs/jl2a92rkuo0kbrt3szce.svg" }],
   ],
   ignoreDeadLinks: true,
 
