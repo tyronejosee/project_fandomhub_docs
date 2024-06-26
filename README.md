@@ -1,8 +1,52 @@
-# Project FandomHub DOCS
+<div align="center">
+  <a href="https://github.com/tyronejosee/project_new_store#gh-light-mode-only" target="_blank">
+    <img src=".github/logo_light.svg" alt="logo-light" width="80">
+  </a>
+  <a href="https://github.com/tyronejosee/project_new_store#gh-dark-mode-only" target="_blank">
+    <img src=".github/logo_dark.svg" alt="logo-dark" width="80">
+  </a>
+</div>
+<div align="center">
+  <h1><strong>FandomHub - Docs</strong></h1>
+  <a href="https://project-fandomhub-docs.pages.dev/"><strong>Deploy on Cloudflare 🚀</strong></a>
+</div>
+<br>
+<p align="center">
+Documentation created for the API and platform of FandomHub, made with VitePress and Cloudflare Pages.
+<p>
+<p align="center">
+  <a href="https://vitepress.dev/">
+    <img src="https://img.shields.io/badge/vitepress-1.2.3-white" alt="python-version">
+  </a>
+</p>
 
-## Deploy
+## ⚙️ Installation
 
-### Github Pages
+Clone the repository.
+
+```bash
+git clone git@github.com:tyronejosee/project_fandomhub_docs.git
+```
+
+Install dependencies.
+
+```bash
+npm i
+```
+
+Run the development server.
+
+```bash
+npm run docs:dev
+```
+
+Build the project for production.
+
+```bash
+npm run docs:build
+```
+
+## 💡 Github Pages (Optional)
 
 ```yml
 name: FandomHub Github Pages
