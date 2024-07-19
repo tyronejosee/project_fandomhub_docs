@@ -1,6 +1,6 @@
 # Installation
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus efficitur lorem, ac elementum orci bibendum id. Nullam accumsan auctor urna, a malesuada ex efficitur vel. Curabitur sit amet turpis vitae tortor viverra ultricies. Vestibulum vel orci eget libero faucibus bibendum non nec leo. Nam dapibus ante et magna vehicula, sit amet iaculis sapien posuere. Nullam dignissim suscipit lectus, nec dignissim ex aliquet a.
+To get started with the FandomHub API, follow these steps to set up your development environment and get the application running smoothly.
 
 ## ⚙️ Installation
 
@@ -28,7 +28,7 @@ Install all dependencies.
 pip install -r requirements/local.txt
 ```
 
-Create an environment variable file .env.
+Create an environment variable file `.env`.
 
 ```bash
 SECRET_KEY=""
@@ -71,7 +71,7 @@ Create a superuser to access the entire site without restrictions.
 (env) docker compose -f docker-compose.dev.yml exec web python manage.py createsuperuser
 ```
 
-Log in to `admin`:
+Log in to `/admin`:
 
 ```bash
 http://127.0.0.1:8000/admin/
@@ -93,7 +93,7 @@ Generate translation files for the languages.
 (env) django-admin makemessages -l es --ignore=env/*
 ```
 
-> Use --ignore to exclude specific directories from translation.
+> Use `--ignore` to exclude specific directories from translation.
 
 Compile translation files after making changes to translations.
 
@@ -135,7 +135,7 @@ Check the creation of migrations before creating them.
 
 This project is under the [Apache-2.0 license](https://github.com/tyronejosee/project_fandomhub_api/blob/main/LICENSE).
 
-## Contributing
+## 🌱 Contributing
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/new-feature`).

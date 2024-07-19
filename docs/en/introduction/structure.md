@@ -1,49 +1,45 @@
 
 # Folder Structure
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The folder structure of the FandomHub API project is organized to separate different components and functionalities. Here’s a brief overview of the structure:
 
 ```bash
 project_fandomhub_api/
 ├── config/
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── wsgi.py
-│   └── asgi.py
+│   │   ├── management/
+│   │   │   └── commands/
+│   │   └── settings/
 ├── apps/
-│   ├── __init__.py
-│   ├── app1/
-│   │   ├── __init__.py
-│   │   ├── admin.py
-│   │   ├── apps.py
-│   │   ├── models.py
-│   │   ├── serializers.py
-│   │   ├── tests.py
-│   │   ├── urls.py
-│   │   ├── views.py
-│   │   └── migrations/
-│   │       ├── __init__.py
-│   │       └── ...
-│   ├── app2/
-│   │   ├── __init__.py
-│   │   ├── admin.py
-│   │   ├── apps.py
-│   │   ├── models.py
-│   │   ├── serializers.py
-│   │   ├── tests.py
-│   │   ├── urls.py
-│   │   ├── views.py
-│   │   └── migrations/
-│   │       ├── __init__.py
-│   │       └── ...
-│   └── ... (more apps as needed)
+│   ├── animes/
+│   ├── characters/
+│   ├── clubs/
+│   ├── genres/
+│   ├── home/
+│   ├── mangas/
+│   ├── news/
+│   ├── persons/
+│   ├── playlists/
+│   ├── producers/
+│   ├── profiles/
+│   ├── randoms/
+│   ├── recommendations/
+│   ├── reviews/
+│   ├── tops/
+│   ├── users/
+│   └── utils/
+├── .github/
+│   │   ├── ISSUE_TEMPLATE/
+│   │   └── workflows/
+├── logs/
+├── media/
+├── nginx/
+├── requeriments/
+├── scripts/
+├── static/
+├── templates/
 ├── manage.py
-├── requirements.txt
 ├── README.md
 ├── docker-compose.dev.yml
 ├── .gitignore
-└── static/
-    └── ...
 
 ```
