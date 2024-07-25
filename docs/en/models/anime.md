@@ -157,7 +157,3 @@ The official website of the anime.
 **`is_recommended`** boolean
 
 A boolean indicating if the anime is recommended.
-
-## Meta options
-
-## Methods
