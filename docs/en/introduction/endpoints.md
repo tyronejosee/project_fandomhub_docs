@@ -2,7 +2,7 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus efficitur lorem, ac elementum orci bibendum id. Nullam accumsan auctor urna, a malesuada ex efficitur vel. Curabitur sit amet turpis vitae tortor viverra ultricies. Vestibulum vel orci eget libero faucibus bibendum non nec leo. Nam dapibus ante et magna vehicula, sit amet iaculis sapien posuere.
 
-## User Management <Badge type="tip" text="Endpoint" />
+## Anime <Badge type="tip" text="Endpoint" />
 
 - `POST /api/users/register` Register a new user.
 - `POST /api/users/login` Authenticate a user and return a token.
