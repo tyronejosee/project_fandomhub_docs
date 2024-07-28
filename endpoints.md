@@ -105,7 +105,20 @@ GET persons/{id}/voices/
 
 ## Playlists
 
-<!-- TODO: Add endpoints -->
+GET playlists/animelist/
+PATCH playlists/animelist/
+GET playlists/animelist/animes/
+POST playlists/animelist/animes/
+GET playlists/animelist/animes/{item_id}/
+PATCH playlists/animelist/animes/{item_id}/
+DELETE playlists/animelist/animes/{item_id}/
+GET playlists/mangalist/
+PATCH playlists/mangalist/
+GET playlists/mangalist/mangas/
+POST playlists/mangalist/mangas/
+GET playlists/mangalist/mangas/{item_id}/
+PATCH playlists/mangalist/mangas/{item_id}/
+DELETE playlists/mangalist/mangas/{item_id}/
 
 ## Producers
 
@@ -117,4 +130,86 @@ PATCH producers/{id}/
 DELETE producers/{id}/
 GET producers/{id}/animes/
 
-<!-- TODO: Add more... -->
+## Profiles
+
+GET profiles/
+POST profiles/
+GET profiles/{id}/
+PUT profiles/{id}/
+PATCH profiles/{id}/
+DELETE profiles/{id}/
+GET profiles/my-profile/
+PATCH profiles/update-profile/
+
+## Random
+
+GET random/anime/
+GET random/character/
+GET random/manga/
+GET random/person/
+
+## Recommendations
+
+GET recommendations/anime/
+GET recommendations/manga/
+
+## Schedules
+
+GET schedules/
+
+## Seasons
+
+GET seasons/{year}/{season}/
+GET seasons/now/
+GET seasons/upcoming/
+
+## Socials
+
+GET socials/o/{provider}/
+POST socials/o/{provider}/
+
+## Themes
+
+GET themes/
+POST themes/
+GET themes/{id}/
+PUT themes/{id}/
+PATCH themes/{id}/
+DELETE themes/{id}/
+
+## Tokens
+
+POST tokens/jwt/create/
+POST tokens/jwt/refresh/
+POST tokens/jwt/verify/
+
+## Top
+
+GET top/animes/
+GET top/artists/
+GET top/characters/
+GET top/mangas/
+GET top/reviews/
+
+## Users
+
+GET users/
+POST users/
+GET users/{id}/
+PUT users/{id}/
+PATCH users/{id}/
+DELETE users/{id}/
+GET users/{username}/about/
+GET users/{username}/reviews/
+POST users/activation/
+GET users/me/
+PUT users/me/
+PATCH users/me/
+DELETE users/me/
+POST users/resend_activation/
+POST users/reset_email/
+POST users/reset_email_confirm/
+POST users/reset_password/
+POST users/reset_password_confirm/
+POST users/set_email/
+POST users/set_password/
