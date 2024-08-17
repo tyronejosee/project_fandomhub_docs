@@ -1,9 +1,9 @@
 <div align="center">
-  <a href="https://github.com/tyronejosee/project_new_store#gh-light-mode-only" target="_blank">
-    <img src=".github/logo_light.svg" alt="logo-light" width="80">
+  <a href="https://github.com/tyronejosee/project_fandomhub_docs#gh-light-mode-only" target="_blank">
+    <img src="docs/assets/logo.svg" alt="logo-light" width="80">
   </a>
-  <a href="https://github.com/tyronejosee/project_new_store#gh-dark-mode-only" target="_blank">
-    <img src=".github/logo_dark.svg" alt="logo-dark" width="80">
+  <a href="https://github.com/tyronejosee/project_fandomhub_docs#gh-dark-mode-only" target="_blank">
+    <img src="docs/assets/logo.svg" alt="logo-dark" width="80">
   </a>
 </div>
 <div align="center">

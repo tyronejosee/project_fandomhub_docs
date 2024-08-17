@@ -13,9 +13,6 @@ hero:
     - theme: brand
       text: Documentation
       link: /en/introduction/what_is_fandomhub
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
 
 features:
   - title: Anime and Manga Lists
