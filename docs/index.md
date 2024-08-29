@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Documentation
-      link: /en/introduction/what_is_fandomhub
+      link: /introduction/what_is_fandomhub
 
 features:
   - title: Anime and Manga Lists
